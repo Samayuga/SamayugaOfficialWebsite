@@ -1,0 +1,1111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\Samayuga</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Data/HardwareProducts.xml">
+      <publishTime>12/29/2015 01:11:44</publishTime>
+    </File>
+    <File Include="App_Data/OtherProducts.xml">
+      <publishTime>12/29/2015 01:22:04</publishTime>
+    </File>
+    <File Include="App_Data/SoftwareProducts.xml">
+      <publishTime>12/28/2015 23:51:45</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>12/21/2015 19:05:11</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>12/21/2015 19:05:11</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>12/21/2015 19:20:10</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>12/21/2015 19:20:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>12/21/2015 19:20:33</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>12/21/2015 19:20:41</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>12/21/2015 19:22:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>12/21/2015 19:22:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>12/21/2015 19:22:27</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>12/21/2015 19:22:39</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>12/21/2015 19:22:33</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>12/21/2015 19:22:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>12/21/2015 19:22:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>12/21/2015 19:22:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>12/21/2015 19:22:59</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>12/21/2015 19:23:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>12/21/2015 19:05:49</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>12/21/2015 19:05:51</publishTime>
+    </File>
+    <File Include="bin/OfficialSite.dll">
+      <publishTime>01/23/2016 13:45:21</publishTime>
+    </File>
+    <File Include="bin/OfficialSite.pdb">
+      <publishTime>01/23/2016 13:45:21</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>12/21/2015 19:23:10</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>12/21/2015 19:05:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>12/21/2015 19:05:47</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>12/21/2015 19:22:06</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>12/21/2015 19:05:48</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>12/21/2015 19:05:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>12/21/2015 19:05:49</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>12/21/2015 19:05:49</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>12/21/2015 19:23:10</publishTime>
+    </File>
+    <File Include="Content/bootstrap/bootstrap.css">
+      <publishTime>12/08/2015 11:59:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap/bootstrap.min.css">
+      <publishTime>12/08/2015 11:59:00</publishTime>
+    </File>
+    <File Include="Content/Images/Akshara.png">
+      <publishTime>12/27/2015 19:10:45</publishTime>
+    </File>
+    <File Include="Content/Images/GIF Icons/Advanced technology2.gif">
+      <publishTime>01/02/2016 20:13:21</publishTime>
+    </File>
+    <File Include="Content/Images/GIF Icons/AdvancedTechnology.gif">
+      <publishTime>01/02/2016 20:13:21</publishTime>
+    </File>
+    <File Include="Content/Images/GIF Icons/AdvancedTechnology1.gif">
+      <publishTime>01/02/2016 20:13:21</publishTime>
+    </File>
+    <File Include="Content/Images/GIF Icons/BlackEarth.gif">
+      <publishTime>01/02/2016 20:13:21</publishTime>
+    </File>
+    <File Include="Content/Images/GIF Icons/City.gif">
+      <publishTime>01/02/2016 20:13:21</publishTime>
+    </File>
+    <File Include="Content/Images/GIF Icons/GreenEarth.gif">
+      <publishTime>01/02/2016 20:13:21</publishTime>
+    </File>
+    <File Include="Content/Images/GIF Icons/InsideWork.GIF">
+      <publishTime>01/02/2016 20:13:21</publishTime>
+    </File>
+    <File Include="Content/Images/GIF Icons/OrangeEarth.gif">
+      <publishTime>01/02/2016 19:24:19</publishTime>
+    </File>
+    <File Include="Content/Images/GIF Icons/Supernova.gif">
+      <publishTime>01/02/2016 19:34:29</publishTime>
+    </File>
+    <File Include="Content/Images/GIF Icons/UnderConstruction.gif">
+      <publishTime>01/02/2016 20:13:21</publishTime>
+    </File>
+    <File Include="Content/Images/GIF Icons/WhiteEarth.gif">
+      <publishTime>01/02/2016 20:13:21</publishTime>
+    </File>
+    <File Include="Content/Images/GPSTracking.png">
+      <publishTime>12/29/2015 01:04:44</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/Aboutus.png">
+      <publishTime>01/07/2016 14:31:01</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/CatClaw.png">
+      <publishTime>12/29/2015 17:14:40</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/Download.png">
+      <publishTime>12/30/2015 21:39:46</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/Feedback.png">
+      <publishTime>01/07/2016 14:31:01</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/ForumSupport.png">
+      <publishTime>12/31/2015 02:16:35</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/J_Green.png">
+      <publishTime>12/31/2015 02:27:39</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/Licence.png">
+      <publishTime>12/29/2015 19:32:43</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/Milestones.png">
+      <publishTime>01/07/2016 14:31:01</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/News.png">
+      <publishTime>01/07/2016 14:31:01</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/Online Sale.png">
+      <publishTime>12/30/2015 22:24:46</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/Oppertunities.png">
+      <publishTime>01/07/2016 14:31:01</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/Product.png">
+      <publishTime>12/29/2015 18:52:16</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/RainbowLine.png">
+      <publishTime>01/02/2016 18:14:12</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/RandDwork.png">
+      <publishTime>01/07/2016 14:31:01</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/Sitemap.png">
+      <publishTime>01/07/2016 14:31:01</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/TechnicalSupport.png">
+      <publishTime>12/29/2015 19:05:44</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/Ticket.png">
+      <publishTime>12/29/2015 22:03:32</publishTime>
+    </File>
+    <File Include="Content/Images/PNG Icons/Tracking.png">
+      <publishTime>12/29/2015 19:55:24</publishTime>
+    </File>
+    <File Include="Content/Images/SmartHome.png">
+      <publishTime>12/29/2015 00:53:33</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/accordion.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/accordion.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/accordion.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/accordion.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/ad.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/ad.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/api.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/api.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/breadcrumb.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/breadcrumb.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/button.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/button.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/card.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/card.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/checkbox.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/checkbox.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/checkbox.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/checkbox.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/comment.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/comment.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/container.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/container.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/dimmer.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/dimmer.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/dimmer.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/dimmer.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/divider.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/divider.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/dropdown.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/dropdown.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/dropdown.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/dropdown.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/embed.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/embed.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/embed.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/embed.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/feed.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/feed.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/flag.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/flag.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/form.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/form.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/form.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/form.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/grid.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/grid.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/header.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/header.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/icon.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/icon.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/image.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/image.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/input.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/input.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/item.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/item.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/label.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/label.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/list.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/list.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/loader.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/loader.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/menu.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/menu.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/message.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/message.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/modal.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/modal.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/modal.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/modal.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/nag.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/nag.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/nag.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/nag.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/popup.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/popup.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/popup.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/popup.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/progress.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/progress.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/progress.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/progress.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/rail.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/rail.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/rating.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/rating.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/rating.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/rating.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/reset.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/reset.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/reveal.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/reveal.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/search.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/search.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/search.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/search.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/segment.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/segment.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/shape.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/shape.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/shape.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/shape.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/sidebar.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/sidebar.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/sidebar.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/sidebar.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/site.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/site.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/site.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/site.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/state.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/state.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/statistic.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/statistic.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/step.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/step.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/sticky.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/sticky.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/sticky.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/sticky.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/tab.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/tab.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/tab.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/tab.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/table.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/table.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/transition.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/transition.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/transition.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/transition.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/visibility.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/components/visibility.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/semantic.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/semantic.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/semantic.min.css">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/semantic.min.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/basic/assets/fonts/icons.eot">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/basic/assets/fonts/icons.svg">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/basic/assets/fonts/icons.ttf">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/basic/assets/fonts/icons.woff">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/default/assets/fonts/icons.eot">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/default/assets/fonts/icons.svg">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/default/assets/fonts/icons.ttf">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/default/assets/fonts/icons.woff">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/default/assets/fonts/icons.woff2">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/default/assets/images/flags.png">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/github/assets/fonts/octicons-local.ttf">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/github/assets/fonts/octicons.svg">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/github/assets/fonts/octicons.ttf">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/dist/themes/github/assets/fonts/octicons.woff">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/gulpfile.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/.bin/gulp">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/.bin/gulp.cmd">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/.bin/json2yaml">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/.bin/json2yaml.cmd">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/.bin/yaml2json">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/.bin/yaml2json.cmd">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/.npmignore">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/demo.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/index.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/log_table.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/.npmignore">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/examples/revs.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/examples/table.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/History.md">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/index.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/lib/cli-table/index.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/lib/cli-table/utils.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/Makefile">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/node_modules/colors/._colors.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/node_modules/colors/._example.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/node_modules/colors/._MIT-LICENSE.txt">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/node_modules/colors/._package.json">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/node_modules/colors/._ReadMe.md">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/node_modules/colors/colors.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/node_modules/colors/example.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/node_modules/colors/MIT-LICENSE.txt">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/node_modules/colors/package.json">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/node_modules/colors/ReadMe.md">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/package.json">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/README.md">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/test/index.test.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/cli-table/test/newlines.test.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/colors/colors.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/colors/example.html">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/colors/example.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/colors/MIT-LICENSE.txt">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/colors/package.json">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/colors/ReadMe.md">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/colors/test.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/colors/themes/winston-dark.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/node_modules/colors/themes/winston-light.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/package.json">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/README.md">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/screenshot.png">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/better-console/test.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/index.js">
+      <publishTime>12/08/2015 11:59:24</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/license">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/.bin/rimraf">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/.bin/rimraf.cmd">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/index.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/license">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/array-union/index.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/array-union/node_modules/array-uniq/index.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/array-union/node_modules/array-uniq/package.json">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/array-union/node_modules/array-uniq/readme.md">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/array-union/package.json">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/array-union/readme.md">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/arrify/index.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/arrify/license">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/arrify/package.json">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/arrify/readme.md">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/common.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/glob.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/LICENSE">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inflight/.eslintrc">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inflight/inflight.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inflight/LICENSE">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inflight/node_modules/wrappy/LICENSE">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inflight/node_modules/wrappy/package.json">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inflight/node_modules/wrappy/README.md">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inflight/node_modules/wrappy/test/basic.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inflight/node_modules/wrappy/wrappy.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inflight/package.json">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inflight/README.md">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inflight/test.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inherits/inherits.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inherits/inherits_browser.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inherits/LICENSE">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inherits/package.json">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inherits/README.md">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/inherits/test.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/minimatch/LICENSE">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/minimatch/minimatch.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/.npmignore">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/example.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/semantic/node_modules/del/node_modules/globby/node_modules/glob/node_modules/minimatch/node_modules/brace-expansion/index.js">
+      <publishTime>12/08/2015 11:59:26</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>12/10/2015 13:58:00</publishTime>
+    </File>
+    <File Include="Content/Videos/ocean.jpg">
+      <publishTime>01/06/2016 18:10:22</publishTime>
+    </File>
+    <File Include="Content/Videos/ocean.mp4">
+      <publishTime>01/06/2016 18:10:25</publishTime>
+    </File>
+    <File Include="Content/Videos/ocean.ogv">
+      <publishTime>01/06/2016 18:10:25</publishTime>
+    </File>
+    <File Include="Content/Videos/ocean.webm">
+      <publishTime>01/06/2016 18:10:25</publishTime>
+    </File>
+    <File Include="Content/Videos/Produce.mp4">
+      <publishTime>01/21/2016 15:17:01</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>11/14/2015 23:07:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/14/2015 23:07:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/14/2015 23:07:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/14/2015 23:07:30</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/14/2015 23:07:30</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/27/2015 00:16:22</publishTime>
+    </File>
+    <File Include="Licence Key.pfx">
+      <publishTime>12/26/2015 23:56:44</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/14/2015 23:07:48</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>11/14/2015 23:07:30</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>11/14/2015 23:07:30</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>11/14/2015 23:07:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>11/14/2015 23:07:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>11/14/2015 23:07:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>11/14/2015 23:07:40</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>11/14/2015 23:07:40</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>11/14/2015 23:07:40</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>11/14/2015 23:07:40</publishTime>
+    </File>
+    <File Include="Scripts/jquery.vide.js">
+      <publishTime>01/06/2016 17:58:49</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>11/14/2015 23:07:38</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>11/14/2015 23:07:38</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>11/14/2015 23:07:38</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>01/06/2016 17:58:49</publishTime>
+    </File>
+    <File Include="Views/Account/ConfirmEmail.cshtml">
+      <publishTime>12/25/2015 13:44:44</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
+      <publishTime>12/27/2015 00:21:51</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginFailure.cshtml">
+      <publishTime>11/14/2015 23:07:40</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPassword.cshtml">
+      <publishTime>12/27/2015 00:21:51</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPasswordConfirmation.cshtml">
+      <publishTime>12/25/2015 13:50:49</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>12/27/2015 00:21:51</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>12/27/2015 00:21:51</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPassword.cshtml">
+      <publishTime>12/27/2015 00:21:51</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPasswordConfirmation.cshtml">
+      <publishTime>12/25/2015 13:39:19</publishTime>
+    </File>
+    <File Include="Views/Account/SendCode.cshtml">
+      <publishTime>12/27/2015 00:21:51</publishTime>
+    </File>
+    <File Include="Views/Account/VerifyCode.cshtml">
+      <publishTime>12/27/2015 00:21:51</publishTime>
+    </File>
+    <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
+      <publishTime>12/27/2015 00:21:51</publishTime>
+    </File>
+    <File Include="Views/Career/Index.cshtml">
+      <publishTime>01/07/2016 14:47:53</publishTime>
+    </File>
+    <File Include="Views/Home/About.cshtml">
+      <publishTime>01/21/2016 15:20:54</publishTime>
+    </File>
+    <File Include="Views/Home/Feedback.cshtml">
+      <publishTime>01/22/2016 12:18:32</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>01/02/2016 20:26:09</publishTime>
+    </File>
+    <File Include="Views/Home/RandD.cshtml">
+      <publishTime>01/07/2016 14:56:10</publishTime>
+    </File>
+    <File Include="Views/Home/SiteMap.cshtml">
+      <publishTime>01/09/2016 20:18:59</publishTime>
+    </File>
+    <File Include="Views/Home/Solution.cshtml">
+      <publishTime>12/26/2015 00:29:39</publishTime>
+    </File>
+    <File Include="Views/Manage/AddPhoneNumber.cshtml">
+      <publishTime>12/27/2015 00:23:19</publishTime>
+    </File>
+    <File Include="Views/Manage/ChangePassword.cshtml">
+      <publishTime>12/27/2015 00:23:19</publishTime>
+    </File>
+    <File Include="Views/Manage/Index.cshtml">
+      <publishTime>12/27/2015 00:23:19</publishTime>
+    </File>
+    <File Include="Views/Manage/ManageLogins.cshtml">
+      <publishTime>12/27/2015 00:23:19</publishTime>
+    </File>
+    <File Include="Views/Manage/SetPassword.cshtml">
+      <publishTime>12/27/2015 00:23:19</publishTime>
+    </File>
+    <File Include="Views/Manage/VerifyPhoneNumber.cshtml">
+      <publishTime>12/27/2015 00:23:19</publishTime>
+    </File>
+    <File Include="Views/Media/Index.cshtml">
+      <publishTime>01/21/2016 13:47:19</publishTime>
+    </File>
+    <File Include="Views/Product/Index.cshtml">
+      <publishTime>12/29/2015 01:34:59</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>12/25/2015 13:57:03</publishTime>
+    </File>
+    <File Include="Views/Shared/Lockout.cshtml">
+      <publishTime>11/14/2015 23:07:42</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>01/22/2016 11:18:33</publishTime>
+    </File>
+    <File Include="Views/Shared/_LoginPartial.cshtml">
+      <publishTime>12/22/2015 19:14:33</publishTime>
+    </File>
+    <File Include="Views/Support/Index.cshtml">
+      <publishTime>01/02/2016 20:20:47</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>12/27/2015 00:23:19</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>11/14/2015 23:07:24</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/23/2016 13:45:23</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

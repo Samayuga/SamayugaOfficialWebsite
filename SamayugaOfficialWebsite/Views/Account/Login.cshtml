@@ -1,0 +1,103 @@
+﻿@using OfficialSite.Models
+
+@model LoginViewModel
+
+@{
+    ViewBag.Title = "Log in";
+
+}
+
+<div class="ui  container">
+
+    <div class="ui basic segment">
+        <div class="ui  grid">
+
+            <div class="four wide column"></div>
+            <div class="eight wide column" style="z-index:1;">
+                <div class="ui   piled  segment">
+                    <section id="loginForm">
+                        <div class="ui tall stacked  raised form segment">
+                            <div class="ui blue ribbon  label"> Sign-In to your account </div>
+
+                            <br />
+                            <br />
+                            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "", role = "form" }))
+                            {
+                                @Html.AntiForgeryToken()
+
+                                @Html.ValidationSummary(true, "", new { @class = "" })
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.Email, new { @class = "" })
+
+                                    @Html.TextBoxFor(m => m.Email, new { @class = "" })
+                                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "ui  red sub disabled header" })
+
+                                </div>
+                                <div class="">
+                                    @Html.LabelFor(m => m.Password, new { @class = "" })
+                                    <div class="col-md-10">
+                                        @Html.PasswordFor(m => m.Password, new { @class = "" })
+                                        @Html.ValidationMessageFor(m => m.Password, "", new { @class = "ui  red sub disabled header" })
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="inline field">
+                                    <div class="ui toggle checkbox">
+                                        @Html.CheckBoxFor(m => m.RememberMe)
+
+                                        @Html.LabelFor(m => m.RememberMe)
+
+                                    </div>
+                                    <label></label>
+                                </div>
+
+                                <input type="submit" value="Log in" class="ui blue right floated submit button" />
+
+                                <br />
+                                <p>
+                                    @Html.ActionLink("Forgot your password?", "ForgotPassword")
+                                </p>
+                            }
+                            <br />
+                            <div class="ui inverted section divider"></div>
+
+                            <section id="socialLoginForm">
+                                @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+                            </section>
+
+                            <div class="ui inverted section divider"></div>                         
+
+                            <div class="ui blue basic mini  animated fade button right floated">
+                                <div class="visible content">
+                                    <i class="icon user"></i>
+                                    @Html.ActionLink("Register as a new user", "Register")
+                                </div>
+                                <div class="hidden content">                                   
+                                    @Html.ActionLink("Signup for free", "Register")
+                                </div>
+                            </div>
+
+                            <i class="plug in massive  blue icon "> </i>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="four wide column"></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-8">
+
+    </div>
+    <div class="col-md-4">
+
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+    @Html.AntiForgeryToken()
+
+    <div class="ui mini right floated buttons">
+        <div class="ui blue image tiny label">
+            @*<img src="/images/avatar/small/christian.jpg">*@
+            <i class="user icon"></i>
+            @Html.ActionLink(User.Identity.GetUserName() , "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage", @class = "" })
+            <div class="detail">user</div>
+        </div>
+        <a href="javascript:document.getElementById('logoutForm').submit()" class="ui red button">Log off</a>
+    </div>
+    }
+}
+else
+{
+    <div class="ui mini right floated buttons">
+        @Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new
+   {
+       id = "registerLink",@class="ui button"
+       
+   })
+        <div class="or"></div>
+
+        @Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new
+   {
+       id = "loginLink",@class="ui positive button"
+   })
+    </div>
+  
+   
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfHardwareProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <HardwareProduct>    
+    <Number>100-000-001</Number>    
+    <Title>Smart Home Automation Kit</Title>   
+    <ShortDescription>Complete Home Automation System (IOT)</ShortDescription>
+    <LongDescription>
+      A Perfect Automation Kit built on advanced technlogies (Like Android 5.1, Wireless I.O.T Device, SMS Instruction,G.P.S Data, Web Controlling, Biomatric, CCTV, Weather Controllers, ... ) for controlling Home appliance(s).
+
+    </LongDescription>
+    <HtmlIcon> icon</HtmlIcon>
+    <ImageLink>/Content/Images/SmartHome.png</ImageLink>
+    <Price>4899 ₹</Price>
+    <Duration>3 Year</Duration>
+    <Rating>3</Rating>
+  </HardwareProduct>
+
+  <HardwareProduct>
+    <Number>100-000-002</Number>
+    <Title>Smart GPS Tracking Kit</Title>
+    <ShortDescription>Smart GPS System (IOT Plus)</ShortDescription>
+    <LongDescription>
+      A Smart Global Positioning System customized for tracking Vehicals  with supported cloude data storage and remote monitoring technologies.
+
+    </LongDescription>
+    <HtmlIcon> icon</HtmlIcon>
+    <ImageLink>/Content/Images/GPSTracking.png</ImageLink>
+    <Price>2899 ₹</Price>
+    <Duration>2 Year</Duration>
+    <Rating>5</Rating>
+  </HardwareProduct>
+
+
+</ArrayOfHardwareProduct>

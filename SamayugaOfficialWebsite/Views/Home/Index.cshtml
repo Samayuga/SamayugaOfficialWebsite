@@ -1,0 +1,163 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<style type="text/css">
+    .masthead h1.ui.header {
+        margin-top: 3em;
+        margin-bottom: 0em;
+        font-size: 4em;
+        font-weight: normal;
+    }
+
+    .zigzag {
+        position: relative;
+        width: 100%;
+    }
+
+        .zigzag:before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: -10px;
+            width: 100%;
+            height: 10px;
+        }
+
+    .container1 {
+        background: #FFF;
+    }
+
+        .container1:before {
+            background: linear-gradient( 45deg, transparent 33.333%, #FFF 33.333%, #FFF 66.667%, transparent 66.667% ), linear-gradient( -45deg, transparent 33.333%, #FFF 33.333%, #FFF 66.667%, transparent 66.667% );
+            background-size: 20px 40px;
+        }
+</style>
+
+<script>
+    $(document).ready(function () {
+        $('#LoadingBar').progress();
+    });
+</script>
+
+
+<div>
+
+
+
+
+    <div class="ui inverted vertical masthead center aligned segment">
+        <div id="LoadingBar" class="ui indicating tiny orange top attached progress " data-percent="100">
+            <div class="bar">                
+            </div>
+        </div>
+
+        <div class="ui text container" >
+           
+            <h1 class="ui inverted header">
+                Imagine-a-Company
+            </h1>
+            
+            <h2>Do whatever you want when you want to.</h2>
+
+            
+
+
+            
+           
+           
+
+            
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </div>
+
+
+    <div class="container1 zigzag">
+        <br />
+        <div class="ui container">
+            <div class="">
+                <div class="ui four column grid" style="position: relative;">
+                    <div class="column">
+                        <div class="ui basic center aligned segment">
+                            <i class="huge icons">
+                                <i class="angellist  icon"></i>
+                                <i class="corner paw icon"></i>
+                            </i>
+                            <h1 class="ui header">Unique </h1>
+                            <p> We are most original, indepenent startup. With most effective, interesting, unique business models.</p>
+                            <p>   </p>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="ui basic center aligned segment">
+                            <i class="money icon"></i>
+                            <i class="huge icons">
+                                <i class="world icon"></i>
+                                <i class=" corner left inverted marker icon"></i>
+                            </i>
+                            <i class=" translate icon"></i>
+                            <h1 class="ui header">Global</h1>
+                            <p>We provide the most technically advanced,standard, popular & globally acceptable solution.</p>
+                        </div>
+                    </div>
+                    <div class="column" style="z-index:1;">
+                        <div class="ui basic center aligned segment">
+
+                            <i class="huge icons">
+                                <i class="paint brush icon"></i>
+                                <i class=" corner game icon"></i>
+
+                            </i>
+
+                            <h1 class=" ui header">
+                                Crafted
+                            </h1>
+                            <p>We provide well crafted user interface that is easy to understand and rubust.</p>
+                        </div>
+                    </div>
+                    <div class="column" style="z-index:1;">
+                        <div class="ui basic center aligned segment">
+                            <i class="huge icons">
+                                <i class=" protect icon"></i>
+                                <i class=" corner lightning icon"></i>
+                            </i>
+
+                            <h1 class=" ui header">
+                                Secure.
+                            </h1>
+                            <p>We provide high end security integrated, multi-dimentional, technically advanced product & services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ui basic center aligned segment">
+        <i class="huge icons">
+            <i class=" trophy icon"></i>
+            
+        </i>
+
+        <h1 class=" ui header">
+            Liberate Your Project Development
+        </h1>
+        <h2> Enterprise Ready</h2>
+        <h4>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</h4>
+        <h4>              
+            We help companies and companions build tools, performance logging, support for custom definitions, multiple-levels of inheritance your dream.
+            </h4>
+    </div>
+    <br />
+   
+    <br />
+
+</div>

@@ -1,0 +1,456 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<script>
+    $(document).ready(function () {
+        $('.menu .item').tab();
+
+        $('.ui.rating').rating();
+
+        $('.ui.sticky').sticky();
+
+
+        $('#ForumLeftSideBar').sidebar({ context: $('#ForumLeftSideBarOuter') }).sidebar('attach events', '#ForumLeftSideBarButton');
+
+
+
+
+
+
+
+
+
+
+
+
+    });
+</script>
+
+<div class="ui container">
+    <br />
+    <div class="ui grid">
+        <div class="three wide column">
+            @*<div class="ui sticky">*@
+            <div class="ui vertical   tabular menu">
+                <a class="item orange active" data-tab="tab-name1">
+                    <i class="cube icon"></i> Technical Support
+                </a>
+                <a class="item green" data-tab="tab-name2">
+                    <i class="ticket icon"></i> Ticket Service
+                </a>
+                <a class="item yellow" data-tab="tab-name3">
+                    <i class="download icon"></i> Downloads
+                </a>
+                <a class="item red" data-tab="tab-name4">
+                    <i class="comments outline icon"></i> FAQ and Forum
+                </a>
+                <a class="item blue" data-tab="tab-name5">
+                    <i class="file archive outline icon"></i> Help Documents
+                </a>
+                <a class="item red" data-tab="tab-name6">
+                    <i class="phone  icon"></i> Help Desk
+                </a>
+            </div>
+            @*</div>*@
+        </div>
+        <div class="twelve wide  column">
+            <div class="ui tab active  " data-tab="tab-name1">
+                <div class="ui  segment">
+                    <div class="ui grid   ">
+                        <div class=" four column centered  row ">
+
+                            <div class="column">
+                                <img class="ui small image" src="~/Content/Images/PNG Icons/TechnicalSupport.png" />
+                                <h4> Technical Support Assistance</h4>
+                            </div>
+                            <div class="column">
+                                <img class="ui small image" src="~/Content/Images/PNG Icons/Product.png" />
+                                <h4>Product Related Inquery</h4>
+                            </div>
+                            <div class="column">
+                                <img class="ui small image" src="~/Content/Images/PNG Icons/Licence.png" />
+                                <h4>Licence Registration and Waranty </h4>
+                            </div>
+                            <div class="column">
+                                <img class="ui small image" src="~/Content/Images/PNG Icons/Tracking.png" />
+                                <h4>Online Shipment tracking </h4>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+            <div class="ui tab" data-tab="tab-name2">
+                <div class="ui segment">
+                    <div class="ui grid   ">
+                        <div class=" ui row piled segment">
+
+                            <div class="four wide column">
+                                <img class="ui small image" src="~/Content/Images/PNG Icons/Ticket.png" />
+
+                            </div>
+                            <div class="twelve wide column" style="z-index:1">
+                                <div class="ui form raised segment centered ">
+                                    <br />
+                                    <div class="field">
+
+                                        <div class="ui right labeled left icon input">
+                                            <i class="ticket icon"></i>
+                                            <input placeholder="Please enter your 10 digit ticket number" type="text">
+                                            <a class="ui tag label">
+                                                Ticket Number
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <br />
+                                    <br />
+                                    <button class="green ui button right floated">Submit</button>
+                                    <button class="grey ui button  right floated">Clear</button>
+                                    <br />
+                                    <br />
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui tab" data-tab="tab-name3">
+                <div class="ui segment">
+                    <div class="ui grid   ">
+                        <div class=" ui row piled  segment">
+                            <div class="sixteen  wide column">
+                                <div class=" ui basic center aligned segment">
+                                    <img class="" src="~/Content/Images/PNG Icons/Online Sale.png" />
+
+                                    <h2>Download our top rated products (SAS) from online store  </h2>
+                                </div>
+
+                                <br />
+                                <br />
+                                <br />
+                                <p>Powered by</p>
+
+
+                                <a class=""><i class="github alternate   circular  inverted big icon"></i></a>
+                                <a class=""><i class="android circular inverted green big icon"></i></a>
+                                <a class=""><i class="windows circular blue inverted big icon"></i></a>
+                                <a class=""><i class="apple circular inverted big icon"></i></a>
+                                <br />
+                                <br />
+                                <small>Registerd logo and trade mark symbols owned by third parties, Any Modification, distributing, display, license or sell are as in License terms of respective owners.</small><br /><small> For more information, consult your copyright attorney. </small>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ui tab" data-tab="tab-name4">
+                <div class="ui top attached tabular menu">
+                    <a class="item active" data-tab="first">FAQ</a>
+                    <a class="item" data-tab="second">Forum</a>
+
+                    <div class="right menu">
+                        <div class="item">
+                            <div class="ui transparent icon input">
+                                <input placeholder="Search " type="text">
+                                <i class="search link icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="ui bottom attached tab segment active" data-tab="first">
+                    <div class="ui styled fluid accordion">
+                        <div class="title">
+                            <i class="dropdown icon"></i>
+                            How to Register
+                        </div>
+                        <div class="content">
+                            <p class="transition hidden">You can register for free. You can easily register by clicking on to the register button follewd by filling registration fields like Email address, Password. </p>
+                            <p class="transition hidden">You can also register by external soruces like Google accout, Facebook.  </p>
+
+                            <p class="transition hidden">For more information please contact us.  </p>
+                        </div>
+                        <div class="title">
+                            <i class="dropdown icon"></i>
+                            Recover the password
+                        </div>
+                        <div class="content">
+                            <p class="transition hidden">If you are already registerd and forgot your password than, Old password can be recovered by clicking on to the forgot password link button (in login page). </p>
+                            <p class="transition hidden">For more information please contact us.  </p>
+                        </div>
+                        <div class="title ">
+                            <i class="dropdown icon"></i>
+                            Change Password
+                        </div>
+                        <div class="content">
+                            <p class="transition hidden">
+                                You can change your password by clicking on change password link in your accout profile setting section.
+                                You can also change your profile private and public details like (Name, Mobile Number, Address, etc)
+                            </p>
+
+                            <p class="transition hidden">For more information please contact us.  </p>
+                        </div>
+                        <div class="title ">
+                            <i class="dropdown icon"></i>
+                            What is Ticket System
+                        </div>
+                        <div class="content">
+                            <p class="transition hidden">
+                                An ticket tracking system (also ITS), issue ticket system, support ticket, request management or incident ticket system is a computer software package that manages and maintains issues and its resoutions as required by an organization.
+                            </p>
+
+                            <p class="transition hidden">For more information please contact us.  </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui bottom attached tab segment" data-tab="second">
+
+
+
+
+
+                    <div id="ForumLeftSideBarOuter" class="ui bottom attached  pushable">
+                        <div id="ForumLeftSideBar" style="" class="ui small inverted grey  icon top  horizontal sidebar menu">
+                            <a class="  item">
+                                <i class="  add  icon"></i>
+                                New Question ?
+                            </a>
+
+                            <div class="ui inverted right secondary pointing menu">
+                                <a class="green active item">
+                                    Software
+                                </a>
+                                <a class="orange item">
+                                    Hardware
+                                </a>
+                                <a class="item">
+                                    Others
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pusher">
+                            <button id="ForumLeftSideBarButton" class="ui red basic circular icon button right floated">
+                                <i class="  angle double down icon"></i>
+                            </button>
+
+                            <div class="ui threaded comments">
+
+                                <h3 class="ui dividing header">01: Aviation Services ?</h3>
+
+                                <div class="comment">
+                                    <a class="avatar">
+                                        <img src="~/Content/Images/PNG Icons/J_Green.png" />
+                                    </a>
+                                    <div class="content">
+                                        <a class="author">Jacker Li</a>
+                                        <div class="metadata">
+                                            <span class="date">on 21/02/2016  1:30PM</span>
+                                        </div>
+                                        <div class="text">
+                                            Hi,  Does your company provides aviation product services as defined in transport category..?
+                                        </div>
+                                        <div class="actions">
+                                            <a class="reply">Reply</a>
+                                            <a>
+                                                <i class="expand icon"></i>
+                                                Full-screen
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment">
+                                    <a class="avatar">
+                                        <img src="~/Content/Images/PNG Icons/ForumSupport.png" />
+                                    </a>
+                                    <div class="content">
+                                        <a class="author">Support Team</a>
+                                        <div class="metadata">
+                                            <span class="date">on 21/02/2016  6:08PM</span>
+                                        </div>
+                                        <div class="text">
+                                            <p>No Sir, We are currently not providing any service for Aviation technological scope. </p>
+                                        </div>
+                                        <div class="actions">
+                                            <a class="reply">Reply</a>
+                                            <a>
+                                                <i class="expand icon"></i>
+                                                Full-screen
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="comments">
+                                        <div class="comment">
+                                            <a class="avatar">
+                                                <img src="~/Content/Images/PNG Icons/J_Green.png" />
+                                            </a>
+                                            <div class="content">
+                                                <a class="author">Jacker Li</a>
+                                                <div class="metadata">
+                                                    <span class="date">on 24/02/2016  2:41PM</span>
+                                                </div>
+                                                <div class="text">
+                                                    Thank you.
+                                                </div>
+                                                <div class="actions">
+                                                    <a class="reply">Reply</a>
+
+                                                    <a>
+                                                        <i class="expand icon"></i>
+                                                        Full-screen
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br />
+                                <form class="ui reply form">
+                                    <div class="field">
+                                        <textarea placeholder="Enter your comments."></textarea>
+                                    </div>
+                                    <div class="ui blue labeled submit icon button">
+                                        <i class="icon edit"></i> Add Reply
+                                    </div>
+                                </form>
+                                <br />
+                            </div>
+                            <div class="ui red divider">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="ui tab" data-tab="tab-name5">
+                <div class="ui  tall stacked segment">
+
+                    <table class="ui  selectable celled table">
+                        <thead>
+                            <tr>
+                                <th>Serial Number</th>
+                                <th>Document Name</th>
+                                <th>Document Version</th>
+                                <th>Document Type</th>
+                                <th>Links</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>01</td>
+                                <td>
+                                    <h4>
+                                        Company Brochure
+                                    </h4>
+                                </td>
+                                <td>
+                                    1.0
+                                </td>
+                                <td>
+                                    <i class="red file pdf outline icon"></i> PDF
+                                </td>
+                                <td>
+                                    <div class="ui icon buttons">
+                                        <button class="ui disabled orange basic button">
+                                            <i class="unhide icon"></i>
+                                        </button>
+                                        <button class="ui green basic button">
+                                            <i class="download icon"></i>
+                                        </button>
+                                        <button class="ui disabled blue basic button">
+                                            <i class="share alternate icon"></i>
+                                        </button>
+                                    </div>
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+                    <br />
+                    <br />
+                    <br />
+                </div>
+            </div>
+            <div class="ui tab" data-tab="tab-name6">
+                <div class="ui  tall stacked segment">
+                    <img class="ui image" src="~/Content/Images/PNG Icons/RainbowLine.png" />
+                    <div class="ui segment">
+                        <div class="ui grid   ">
+                            <div class=" ui row  segment">                                                              
+                                <div class="six wide  column">
+                                    <div class="ui center aligned basic segment">
+                                       
+                                        <br />
+                                        <br />
+                                        <br />
+
+
+                                        <div class="ui  circular rotate left reveal image">
+                                            <img src="~/Content/Images/PNG Icons/TechnicalSupport.png" style="height:200px;width:200px;"  class="visible content" />                                            
+                                            <img src="~/Content/Images/GIF Icons/Supernova.gif" style="height:200px;width:200px;" class="hidden content" />                                            
+                                        </div>
+
+                                       
+                                       
+                                    </div>
+                                </div>
+                                <div class="ten wide column" style="z-index:1">
+                                    
+                                  <div class="ui center aligned basic segment ">
+                                      <div class="ui animated green button" tabindex="0">
+                                          <div class="visible content">                                          
+                                              <i class="comments  icon"></i> Start a Live Chat</div>
+                                          <div class="hidden content">
+                                              <i class="whatsapp  icon"></i> Start Now
+                                          </div>
+                                      </div>
+                                      <br />
+                                      <small class="ui bottom attached">Powered by Whatsapp <i class="whatsapp icon"></i></small>
+                                  </div>
+                                    <div class="ui divider"></div>
+                                    <div class="ui center aligned basic  segment ">
+                                        <b>CONTACT US ANSWER DESK AT</b>
+                                        <h1><i class="call big blue  icon "></i>000000000</h1>
+                                    </div>
+                                    <div class="ui divider"></div>
+                                    <div class="ui center aligned basic segment ">
+                                        <b>EMAIL US  AT </b>
+                                        <h1>info@outlook.com</h1>
+                                        <i class="send  big blue  icon "></i>
+                                        <small> Powered by Microsoft Outlook </small>
+                                        <br />
+                                        <div class="ui right floated  basic segment ">
+                                            <i class="fax blue  icon "></i>
+                                            <small>(FAX: 000000000 )</small>
+                                        </div>
+                                    </div>                                                                      
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <img class="ui image" src="~/Content/Images/PNG Icons/RainbowLine.png" />
+                </div>
+            </div>
+        </div>
+        <br />
+
+    </div>
+</div>

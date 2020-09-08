@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfOtherProduct xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <!--<OtherProduct>    
+    <Number>100-000-001</Number>    
+    <Title>Smart Home Automation Kit</Title>   
+    <ShortDescription>Complete Home Automation System (IOT)</ShortDescription>
+    <LongDescription>
+      A Perfect Automation Kit built on advanced technlogies (Like Android 5.1, Wireless I.O.T Device, SMS Instruction,G.P.S Data, Web Controlling, Biomatric, CCTV, Weather Controllers, ... ) for controlling Home appliance(s).
+
+    </LongDescription>
+    <HtmlIcon> icon</HtmlIcon>
+    <ImageLink>/Content/Images/SmartHome.png</ImageLink>
+    <Price>4899 ₹</Price>
+    <Duration>3 Year</Duration>
+    <Rating>3</Rating>
+  </OtherProduct>-->
+
+  
+
+
+</ArrayOfOtherProduct>

@@ -1,0 +1,212 @@
+﻿@*@model Tuple<IEnumerable<OfficialSite.Models.SoftwareProduct>,IEnumerable<OfficialSite.Models.HardwareProduct>>*@
+
+@model OfficialSite.Models.Products
+    @{
+        ViewBag.Title = "Index";
+    }
+    <script>
+        $(document).ready(function () {
+            $('.menu .item').tab();
+
+            $('.ui.rating').rating();
+
+
+        });
+    </script>
+    <div class="ui container" style="z-index:1;position:relative;">
+        <br />
+        <br />
+        <div class="ui top  attached tabular menu">
+            <a class="green item active" data-tab="first">Software Product(s) </a>
+            <a class="red item" data-tab="second">Hardware Product(s)</a>
+            <a class="violet item " data-tab="third">Others Product(s)</a>
+        </div>
+
+        <div class="ui bottom green attached tab  segment active" data-tab="first">
+
+            <div class="ui  segment">
+
+                <div class="ui basic green icon dropdown button right floated">
+                    <i class="filter icon"></i>
+
+                    <div class="tiny menu">
+                        <div class="ui error message">
+                            <div class="header">Disabled</div>
+                            <p>Feature Disabled</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="ui divided  items">
+                    @foreach (var item in Model.SoftwareProducts)
+                    {
+                        <div class="item">
+                            <div class="ui tiny image">
+                                <img src="@item.ImageLink.ToString()" />
+                            </div>
+                            <div class="content">
+                                <h3 class=" ">@item.Title</h3>                                
+                                <div class="meta">
+                                    <p>@item.ShortDescription</p>
+                                </div>
+                                <div class="description">
+                                    <p style="font-family:Calibri;">@item.LongDescription</p>
+                                </div>
+                                <div class="extra">
+                                    <span class="ui mini olive label">Code: @item.Number</span>
+                                    <div class="ui tiny rating" data-rating="@item.Rating" data-max-rating="5"></div>
+                                    
+                                    <span class="ui mini tag label right floated ">@item.Price</span>
+                                    <br />
+                                    <div class="ui circular  tiny icon dropdown button left floated">
+                                        <i class="share alternate icon"></i>
+                                        <div class="tiny menu">
+                                            <div class="ui warning message">                                                
+                                                <p>Sharing Feature Disabled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ui  tiny icon dropdown button left floated">
+                                        <i class="add to cart  icon"></i>
+                                        Add to cart
+                                        <div class="tiny menu">
+                                            <div class="ui warning message">
+                                                <p>Shopping Feature Currently Disabled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="ui bottom attached tab   segment" data-tab="second">
+           
+            <div class="ui  segment">
+                <div class="ui basic orange icon dropdown button right floated">
+                    <i class="options icon"></i>
+
+                    <div class="tiny menu">
+                        <div class="ui error message">
+                            <div class="header">Disabled</div>
+                            <p>Feature Disabled</p>
+                        </div>
+                    </div>
+                </div>
+
+                <br />
+
+                <div class="ui divided  items">
+                    @foreach (var item in Model.HardwareProducts)
+                    {
+                        <div class="item">
+                            <div class="ui tiny image">
+                                <img src="@item.ImageLink.ToString()" />
+                            </div>
+                            <div class="content">
+                                <h3 class=" ">@item.Title</h3>
+                                <div class="meta">
+                                    <p>@item.ShortDescription</p>
+                                </div>
+                                <div class="description">
+                                    <p style="">@item.LongDescription</p>
+                                </div>
+                                <div class="extra">
+                                    <span class="ui mini olive label">Code: @item.Number</span>
+                                    <div class="ui tiny rating" data-rating="@item.Rating" data-max-rating="5"></div>
+                                    <span class="ui mini tag label right floated ">@item.Price</span>
+                                    <br />
+                                    <div class="ui circular  tiny icon dropdown button left floated">
+                                        <i class="share alternate icon"></i>
+                                        <div class="tiny menu">
+                                            <div class="ui warning message">
+                                                <p>Sharing Feature Disabled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ui  tiny icon dropdown button left floated">
+                                        <i class="add to cart  icon"></i>
+                                        Add to cart
+                                        <div class="tiny menu">
+                                            <div class="ui warning message">
+                                                <p>Shopping Feature Currently Disabled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+        <div class="ui bottom attached tab   segment " data-tab="third">
+       
+            <div class="ui  segment">
+
+                <div class="ui basic violet icon dropdown button right floated">
+                    <i class="filter icon"></i>
+
+                    <div class="tiny menu">
+                        <div class="ui error message">
+                            <div class="header">Disabled</div>
+                            <p>Feature Disabled</p>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <div class="ui divided  items">
+                    @foreach (var item in Model.OtherProducts)
+                    {
+                        <div class="item">
+                            <div class="ui tiny image">
+                                <img src="@item.ImageLink.ToString()" />
+                            </div>
+                            <div class="content">
+                                <h3 class=" ">@item.Title</h3>
+                                <div class="meta">
+                                    <p>@item.ShortDescription</p>
+                                </div>
+                                <div class="description">
+                                    <p style="">@item.LongDescription</p>
+                                </div>
+                                <div class="extra">
+                                    <span class="ui mini olive label">Code: @item.Number</span>
+                                    <div class="ui tiny rating" data-rating="@item.Rating" data-max-rating="5"></div>
+                                    <span class="ui mini tag label right floated ">@item.Price</span>
+                                    <br />
+                                    <div class="ui circular  tiny icon dropdown button left floated">
+                                        <i class="share alternate icon"></i>
+                                        <div class="tiny menu">
+                                            <div class="ui warning message">
+                                                <p>Sharing Feature Disabled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ui  tiny icon dropdown button left floated">
+                                        <i class="add to cart  icon"></i>
+                                        Add to cart
+                                        <div class="tiny menu">
+                                            <div class="ui warning message">
+                                                <p>Shopping Feature Currently Disabled</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+
+        <br />
+        <br />
+
+    </div>

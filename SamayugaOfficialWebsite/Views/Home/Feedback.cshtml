@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewBag.Title = "Feedback";
+}
+
+<div class="ui basic segment">
+    <div class="ui left internal rail" style="z-index:2">
+
+        <br />
+        <img class="ui medium image" src="~/Content/Images/PNG Icons/Feedback.png" />
+
+    </div>
+    <div class="ui container" style="z-index:1">
+        <div class="ui grid">
+            <div class="ui four wide column">
+
+            </div>
+            <div class="ui ten wide column stacked segment">
+                <div class="ui tiny steps">
+                    <div class=" active step">
+                        <i class="idea icon"></i>
+                        <div class="content">
+                            <div class="title">Feedback</div>
+                            <div class="description">Please provide us your feedbacks.. we are listining </div>
+                        </div>
+                    </div>
+                    <div class=" step">
+                        <i class="smile icon"></i>
+                        <div class="content">
+                            <div class="title">Site Experience</div>
+                            <div class="description">Please rate on site visit experience.</div>
+                        </div>
+                    </div>
+                 
+                </div>
+
+                <form class="ui form ">
+                    <div class=" ui divider"></div>
+                    <div class="two fields">
+                        <div class="field">
+                            <label>Name</label>
+                            <div class="ui left icon input">
+                                <input type="text" name="Feedback_Name" placeholder="Full Name">
+                                <i class="child icon"></i>
+                            </div>
+                           
+                        </div>
+                        <div class="field">
+                            <label>Email Address</label>
+                            <div class="ui left icon input">
+                                <input type="text" name="Feedback_Email" placeholder="E Mail Address">
+                                <i class="at icon"></i>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="field">
+                        <label>Feedback </label>
+                        <div class="ui right icon input">
+                            <textarea name="Feedback_Summary" placeholder="Your Feedback" rows="4"></textarea>
+                            <i class="idea icon"></i>
+                           
+                        </div>
+                       
+
+                    </div>
+                    <div class="field">
+                        <div class="ui checkbox">
+                            <input type="checkbox" tabindex="0" class="hidden">
+                            <label>I agree to the Terms and Conditions</label>
+                        </div>
+                    </div>
+                    <button class="ui button positive" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="ui container" style="z-index:1">
+        @*<video class="ui fluid image" loop="loop" autoplay="autoplay" poster="~/Content/Videos/ocean.jpg">
+                <source src="~/Content/Videos/ocean.mp4" type="video/mp4" />
+            </video>*@
+    </div>
+</div>
+

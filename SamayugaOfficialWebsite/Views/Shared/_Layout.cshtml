@@ -1,0 +1,614 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/semantic")
+    @*@Scripts.Render("~/bundles/modernizr")*@
+    @Scripts.Render("~/bundles/jquery")    
+    @Scripts.Render("~/bundles/semantic")
+    <script>
+        $(document).ready(function () {
+            $("#divLogo").click(function () {
+                $('.shape').shape();
+                $('.shape').shape('flip right');
+            });
+
+            $('#ProductsTopMenuItem')
+                .popup({
+                    popup: $('#ProductsPopUP'),
+                    on: "click",
+                    inline: true,
+                    //hoverable: true,
+                    position: 'bottom left',
+                    delay: {
+                        //show: 750,
+                        //hide: 1800
+                    },
+                    transition: 'vertical flip'
+                });
+
+            $('#SolutionsTopMenuItem')
+                .popup({
+                    popup: $('#SolutionsPopUP'),
+                    on: "click",
+                    inline: true,
+                    //hoverable: true,
+                    position: 'bottom left',
+                    delay: {
+                        //show: 750,
+                        //hide: 1800
+                    },
+                    transition: 'vertical flip'
+                });
+
+            $('#DesignedBy1')
+               .popup({
+                   on: "click",
+                   inline: true, hoverable: true,
+                   transition: 'horizontal flip'
+               });
+            $('#DesignedBy2')
+               .popup({
+                   on: "click",
+                   inline: true, hoverable: true,
+                   transition: 'vertical flip'
+               });
+            $('#DesignedBy3')
+               .popup({
+                   on: "click",
+                   inline: true, hoverable: true,
+                   transition: 'vertical flip'
+               });
+            $('.ui.sticky')
+                    .sticky(
+                    {
+                        context: '#divLogo',
+                        pushing: false
+                    });
+
+            $('.ui.dropdown')
+                .dropdown()
+            ;
+
+            $("#LeftMainSidebarButton").click(function () {
+                $('.shape').shape('flip up');
+                $("#LeftMainSideBar").sidebar("toggle").sidebar({
+                    context: $("#Container")
+                })
+                .sidebar('setting', 'transition', 'push');
+
+
+            });
+
+            $('.ui.accordion')
+            .accordion()
+            ;
+
+            $('.ui.checkbox')
+            .checkbox()
+            ;
+
+            $('.trigger.example .accordion')
+                 .accordion({
+                     selector: {
+                         trigger: '.title .icon'
+                     }
+                 });
+
+
+            $('.message .close')
+            .on('click', function () {
+                $(this)
+                   .closest('.message')
+                   .transition('fade');
+            });
+          
+            $("#divLogo").on("contextmenu", function () {
+                $('.shape').transition('jiggle');              
+               
+            });
+
+        });
+    </script>
+
+</head>
+<body id="Body" @*oncontextmenu="return false;" onselectstart="return false;" ondragstart="return false;"*@>
+ 
+    @RenderSection("scripts", required: false)
+
+    <div id="LeftMainSideBar" class="ui sidebar grey inverted pointing vertical menu" style="z-index:100">
+
+
+        <div class="item">
+            <div class="ui search">
+                <div class="ui icon input">
+                    <input class="prompt" type="text" placeholder="Search... ">
+                    <i class="search icon"></i>
+                </div>
+                <div class="results"></div>
+            </div>
+        </div>
+
+        <a class=" item">
+            <i class="home icon"></i> Home
+        </a>
+
+        <div class="item">
+            Products
+
+            <div class="ui inverted grey vertical accordion menu">
+                <div class="item">
+                    <a class="title">
+                        <i class="dropdown icon"></i>
+                        Software Products
+                    </a>
+                    <div class="content">
+                        <div class="ui celled list">
+                            <div class="item">
+                                @*<img class="ui avatar image" src="/images/avatar/small/helen.jpg">*@
+                                <i class="cubes icon"></i>
+                                <div class="content">
+                                    <div class="header">Product 1</div>
+                                    A Excellent Product crafted by us
+                                </div>
+                            </div>
+                            <div class="item">
+
+                                <div class="content">
+                                    <div class="header">Poodle</div>
+                                    A poodle, its pretty basic
+                                </div>
+                            </div>
+                            <div class="item">
+
+                                <div class="content">
+                                    <div class="header">Paulo</div>
+                                    He's also a dog
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="title">
+                        <i class="dropdown icon"></i>
+                        Hardware Products
+                    </a>
+                    <div class="content">
+
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="title">
+                        <i class="dropdown icon"></i>
+                        Miscellaneous
+                    </a>
+                    <div class="content">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="item">
+            Solutions
+
+            <div class="ui inverted grey vertical accordion menu">
+                <div class="item">
+                    <a class="title">
+                        <i class="dropdown icon"></i>
+                        Software Products
+                    </a>
+                    <div class="content">
+                        <div class="ui celled list">
+                            <div class="item">
+                                @*<img class="ui avatar image" src="/images/avatar/small/helen.jpg">*@
+                                <i class="cubes icon"></i>
+                                <div class="content">
+                                    <div class="header">Product 1</div>
+                                    A Excellent Product crafted by us
+                                </div>
+                            </div>
+                            <div class="item">
+
+                                <div class="content">
+                                    <div class="header">Poodle</div>
+                                    A poodle, its pretty basic
+                                </div>
+                            </div>
+                            <div class="item">
+
+                                <div class="content">
+                                    <div class="header">Paulo</div>
+                                    He's also a dog
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="title">
+                        <i class="dropdown icon"></i>
+                        Hardware Products
+                    </a>
+                    <div class="content">
+
+                    </div>
+                </div>
+                <div class="item">
+                    <a class="title">
+                        <i class="dropdown icon"></i>
+                        Miscellaneous
+                    </a>
+                    <div class="content">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a class="item">
+            Support and downloads
+        </a>
+        <div class="ui dropdown item">
+            More
+            <i class="dropdown icon"></i>
+            <div class="menu">
+                <a class="item"><i class="edit icon"></i> Edit Profile</a>
+                <a class="item"><i class="globe icon"></i> Choose Language</a>
+                <a class="item"><i class="settings icon"></i> Account Settings</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class=" ">
+
+
+        <div id="Header" class="fixed">
+            <div class=" ui  grid  " style="">
+                <div class=" row">
+
+                    <div style="" class=" floated centered three wide column">
+                        <div id="divLogo" class="ui auto shape ">
+                            <div class="sides">
+                                <div style="z-index:101" class="side active">
+                                    <div class="content">
+
+                                        <div class="" style="align-content:center">
+
+                                            <img src='@Url.Action("GetLogo", "_Layout", new
+                             {
+                                 key = "Image1"
+                             })' style="height:110px;width:181px;" id="Logo_1" oncontextmenu="return false;" onselectstart="return false;" ondragstart="return false;" />
+                                            <i class="india flag"></i>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="side">
+                                    <div class="content">
+                                        <div class="center">
+                                            <img src='@Url.Action("GetLogo", "_Layout", new
+                             {
+                                 key = "Image1"
+                             })' style="height:110px;width:181px;" id="Logo_2" oncontextmenu="return false;" onselectstart="return false;" ondragstart="return false;" />
+                                            <i class="india flag"></i>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="left floated thirteen wide column">
+
+                        <div class="ui basic top clearing  orange attached segment">
+                            @Html.Partial("_LoginPartial")
+                        </div>
+
+                        <div class="ui small secondary  bottom attached menu ">
+                            <a id="LeftMainSidebarButton" class=" item">
+                                <i class="sidebar big icon"></i>
+                            </a>
+
+                            <a class="item" href="@Url.Action("Index", "Home")">
+                                <i class="big home icon"></i>
+                                Home
+                            </a>
+
+                            <a id="ProductsTopMenuItem" class=" item">
+                                <i class="big cubes icon"></i>
+                                Products
+                            </a>
+
+                            <a id="SolutionsTopMenuItem" class="item">
+                                <i class="puzzle big icon"></i> Solutions
+                            </a>
+
+                            <a class=" item" href="@Url.Action("Index", "Support")">
+                                <i class="big download icon icon"></i> Support and Download
+                            </a>
+
+                            <div class="ui  dropdown item ">
+                                More
+                                <i class="dropdown icon"></i>
+                                <div class="menu">
+                                    <a class="item" href="@Url.Action("SiteMap", "Home")"><i class="sitemap icon"></i> Sitemap</a>
+                                    <a class="item" href="@Url.Action("Index", "Media")"><i class="line chart icon"></i> News updates </a>
+                                    <a class="item disabled" href="@Url.Action("RandD", "Home")"><i class="lab icon"></i> Research and development </a>
+                                    <a class="item disabled" href="@Url.Action("Index", "Career")"><i class="student icon"></i> Work with us </a>
+                                    <div class="ui fitted divider"></div>
+                                   
+                                    <a class="item" href="@Url.Action("Feedback", "Home")"><i class="idea icon"></i> Submit feedback</a>
+
+                                    <div class="ui fitted divider"></div>
+
+                                    <a class="item" href="@Url.Action("About", "Home")"><i class="paw icon"></i> About us</a>
+                                </div>
+                            </div>
+
+                            <div class="right item">
+                                <div class="ui icon  input">
+                                    <input type="text" placeholder="Search...">
+                                    <i class="search icon"></i>
+                                </div>
+
+                                <select class="ui compact  selection dropdown">
+                                    <option value="All">All</option>
+                                    <option value="products">Products</option>
+                                    <option selected="" value="Support">Support</option>
+                                </select>
+
+                            </div>
+
+                            <div id="ProductsPopUP" class="ui fluid popup bottom left transition hidden">
+                                <div class="ui four column relaxed equal height divided grid">
+                                    <div class="column">
+                                        <h4 class="ui header">Software Products</h4>
+                                        <div class="ui link list">
+                                           
+                                            <a class="item" href="@Url.Action("Index", "Product")">
+                                                <img class="ui avatar image" src="~/Content/Images/Akshara.png">                                              
+                                                <div class="content">
+                                                    <div class="header">Aksara</div>
+                                                    <div class="description">Free Education Software</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <h4 class="ui header">Hardware Products</h4>
+                                        <div class="ui link list">
+                                            <a class="item">
+
+                                            </a>
+                                            <a class="item">
+
+                                            </a>
+                                            <a class="item">
+
+                                            </a>
+                                            <a class="item">
+
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="column">
+                                        <h4 class="ui header">Miscellaneous</h4>
+                                        <div class="ui link list">
+                                            <a class="item"></a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div id="SolutionsPopUP" class="ui fluid popup bottom left transition hidden">
+                                <div class="ui three column relaxed equal height divided grid">
+                                    <div class="column">
+                                        <h4 class="ui header">Industrial Solutions </h4>
+                                        <div class="ui link list">
+                                            <a class="item" href="@Url.Action("Solution", "Home")">
+                                                <i class="huge icons">
+                                                    <i class="big loading black setting icon"></i>
+                                                    <i class="setting black loading icon"></i>
+                                                    <i class="crosshairs black  icon"></i>
+                                                </i>
+                                                <br />
+                                                We are providing software & hardware solutions for many diffrent business industries.
+                                            </a>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="column">
+                                        <h4 class="ui header">Other Industies</h4>
+                                        <div class="ui link list">
+                                            <a class="item">
+                                                Inforation Technology Industry
+                                            </a>
+                                            <a class="item">
+                                                Agriculture Industry
+                                            </a>
+                                            <a class="item">
+                                                Construction Industry
+                                            </a>
+                                            <a class="item">
+                                                Electronic Industry
+                                            </a>
+                                            <a class="item">
+                                                Food Processing Industry
+                                            </a>
+                                            <a class="item">
+                                                Health Care Industry
+                                            </a>
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="ui fitted divider"></div>
+
+
+        <div id="Container" class="pusher">
+            @RenderBody()
+
+            <footer>
+                <div class="ui inverted vertical  segment">
+
+                    <div class="ui container">
+                        <br />
+                        <div class="ui inverted section divider"></div>
+                        <div class="ui stackable inverted divided equal height stackable grid">
+                            <div class="three wide column">
+                                <h4 class="ui inverted header">Information</h4>
+                                <div class="ui inverted link list">
+                                    <a href="@Url.Action("SiteMap", "Home")" class="item">Sitemap</a>
+                                    <a href="@Url.Action("About", "Home")" class="item">Contact Us</a>
+                                    <a href="@Url.Action("Index", "Support")" class="item">Help and Support</a>
+                                </div>
+
+                                <img style="" class=" ui tiny image " src="~/Content/Images/PNG Icons/CatClaw.png" />
+
+                                <div class="ui bottom attached black label">
+                                    <div class="ui floating mini dropdown inverted labeled search icon button">
+                                        <i class=" translate icon"></i>
+                                        <span class="text">Select Language</span>
+                                        <div class=" menu  ">
+                                            <div class="item">English (India)</div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="three wide column">
+                                <h4 class="ui inverted header">Product & Services</h4>
+                                <div class="ui inverted link list">
+                                    <a href="@Url.Action("Index", "Product")" class="item">Products</a>
+                                    <a href="@Url.Action("Solution", "Home")" class="item">IT Services</a>
+
+                                </div>
+                            </div>
+                            <div class="seven wide column">
+                                <h4 class="ui inverted header">Official Details</h4>
+                                <p>
+                                    Find and follow us
+                                    <a href="https://www.youtube.com/"><i class=" youtube play   icon"></i></a>
+                                    <a href="https://github.com/"><i class=" github square  icon"></i></a>
+                                    <a href="https://in.pinterest.com/"><i class="pinterest orenge square icon"></i></a>
+                                    <a href="https://www.instagram.com/"><i class=" instagram   icon"></i></a> |
+                                    <a href="https://wallet.google.com/"><i class="google wallet icon"></i></a>
+                                    <a href="https://www.paypal.com/in/"><i class="paypal icon"></i></a>
+                                    <a href="https://paytm.com/"><i class="payment icon"></i></a>
+
+
+
+                                </p>
+
+                                <p>
+
+                                    <a class="ui circular facebook icon button" href="https://web.facebook.com/">
+                                        <i class="facebook icon"></i>
+                                    </a>
+                                    <a class="ui circular twitter icon button" href="https://twitter.com/?lang=en">
+                                        <i class="twitter icon"></i>
+                                    </a>
+                                    <a class="ui circular linkedin icon button" href="https://www.linkedin.com/">
+                                        <i class="linkedin icon"></i>
+                                    </a>
+                                    <a class="ui circular google plus icon button" href="https://plus.google.com/">
+                                        <i class="google plus icon"></i>
+                                    </a>
+
+                                </p>
+
+
+
+                                <div class="ui mini left  grey inverted floated statistic">
+                                    <div class="value">
+                                        <i class="anchor icon"></i>
+                                        0
+                                    </div>
+                                    <div class="label">
+                                        Views
+                                    </div>
+                                </div>
+                                <div class="ui mini left yellow  inverted floated statistic">
+                                    <div class="value">
+                                        <i class="star half empty icon"></i>
+                                        0 / 5
+                                    </div>
+                                    <div class="label">
+                                        Ratings
+                                    </div>
+                                </div>
+
+                                <div class="ui mini left blue  inverted floated statistic">
+                                    <div class="value">
+                                        <i class="thumbs up icon"></i>
+                                        0
+                                    </div>
+                                    <div class="label">
+                                        Likes
+                                    </div>
+                                </div>
+
+                                <div class="ui small inverted right floated basic icon buttons">
+                                    <a class="ui button" href="https://www.android.com/"><i class="android icon"></i></a>
+                                    <a class="ui button" href="https://www.microsoft.com"><i class="windows icon"></i></a>
+                                    <a class="ui button" href="http://www.apple.com/in/"><i class="apple icon"></i></a>
+
+                                </div>
+
+                                <div class="ui inverted section divider">
+                                </div>
+
+                                <p style="font-size:xx-small;">
+                                    DISCLAIMER
+                                    Please do not share your password, credit/ debit card details, other confidential information with anyone even if he/she claims to be from SAMAYUGA. We advise our customers to completely ignore such communications & report to us.
+                                </p>
+
+
+                                <div class="ui  left   inverted floated ">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ui inverted section divider"></div>
+                        
+                       
+
+                        <a id="DesignedBy1" class="ui red empty circular label" data-offset="-8" data-content="Crafted By Samayuga®"></a>
+                        <a id="DesignedBy2" class="ui orange empty circular label" data-offset="-5" data-title="Licence number" data-variation="mini basic inverted" data-content=" 58320437-0558-4e50-bef0-c71cd464db14 "></a>
+                        <a id="DesignedBy3" class="ui yellow empty circular label" data-offset="-5" data-title="Assembly" data-variation="mini basic inverted" data-content=" 1.0.0.1 "></a>
+                        
+                    </div>
+
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+</body>
+</html>
